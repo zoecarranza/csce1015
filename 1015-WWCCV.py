@@ -1,3 +1,4 @@
+# Credit Card Validator version .1
 # This is the world's worst credit card number validator. It checks to see if the number is 16 digits long and that is it.  
 
 # anything that starts with a pound sign (hashtag if you are under 30) is a comment. The computer ignores these.
@@ -14,10 +15,6 @@ card_number = input("Enter your 16-digit credit card number: ")
 # card_number.isdigit() is checking if this is numbers instead of someone typing 'cheeseburger' for their credit card number.
 
 if len(card_number) == 15 and card_number.isdigit():     
-
     print ("Card is valid.")
-
 else:
-
-    print ("Invalid card number. It must be 16 digits long.")
-    
+    print ("Invalid card number. It must be 16 digits long.") 
